@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>JS07 API fetch</title>
+</head>
+<body>
+    <h1>JS07 API fetch</h1>
+    <h2>María Reveles</h2>
+
+    <div class="d-grid gap-2">
+        <button class="btn btn-primary" type="button" onclick="traer()">Cargar datos</button>
+        <div class ="mt-5">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">email</th>
+                    <th scope="col">first_name</th>
+                    <th scope="col">last_name</th>
+                    <th scope="col">avatar</th>
+                  </tr>
+                </thead>
+                <tbody id="contenido">
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td><img class="rounded-circle" src="https://reqres.in/img/faces/1-image.jpg" alt="avatar de persona"></td>
+
+                  </tr>
+        
+                </tbody>
+              </table>
+
+        </div>
+      </div>
+ 
+<!--       <main>
+        <article>
+            <div>
+                <img class="rounded-circle" src="https://reqres.in/img/faces/1-image.jpg" alt="personaje">
+            </div>
+            <h2>Nombre</h2>
+            <span>Estado de personaje</span>
+        </article>
+      </main>
+ -->
+      <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./JavaScript/api_fetch.js"></script>
+</body>
+</html>
